@@ -20,83 +20,83 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 224
 interfaces:
-  - name: IB1/1
-    type: infiniband-fdr
-  - name: IB1/2
-    type: infiniband-fdr
-  - name: IB1/3
-    type: infiniband-fdr
-  - name: IB1/4
-    type: infiniband-fdr
-  - name: IB1/5
-    type: infiniband-fdr
-  - name: IB1/6
-    type: infiniband-fdr
-  - name: IB1/7
-    type: infiniband-fdr
-  - name: IB1/8
-    type: infiniband-fdr
-  - name: IB1/9
-    type: infiniband-fdr
-  - name: IB1/10
-    type: infiniband-fdr
-  - name: IB1/11
-    type: infiniband-fdr
-  - name: IB1/12
-    type: infiniband-fdr
-  - name: IB1/13
-    type: infiniband-fdr
-  - name: IB1/14
-    type: infiniband-fdr
-  - name: IB1/15
-    type: infiniband-fdr
-  - name: IB1/16
-    type: infiniband-fdr
-  - name: IB1/17
-    type: infiniband-fdr
-  - name: IB1/18
-    type: infiniband-fdr
-  - name: IB1/19
-    type: infiniband-fdr
-  - name: IB1/20
-    type: infiniband-fdr
-  - name: IB1/21
-    type: infiniband-fdr
-  - name: IB1/22
-    type: infiniband-fdr
-  - name: IB1/23
-    type: infiniband-fdr
-  - name: IB1/24
-    type: infiniband-fdr
-  - name: IB1/25
-    type: infiniband-fdr
-  - name: IB1/26
-    type: infiniband-fdr
-  - name: IB1/27
-    type: infiniband-fdr
-  - name: IB1/28
-    type: infiniband-fdr
-  - name: IB1/29
-    type: infiniband-fdr
-  - name: IB1/30
-    type: infiniband-fdr
-  - name: IB1/31
-    type: infiniband-fdr
-  - name: IB1/32
-    type: infiniband-fdr
-  - name: IB1/33
-    type: infiniband-fdr
-  - name: IB1/34
-    type: infiniband-fdr
-  - name: IB1/35
-    type: infiniband-fdr
-  - name: IB1/36
-    type: infiniband-fdr
+  - name: Ethernet1/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/2
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/3
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/4
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/5
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/6
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/7
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/8
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/9
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/10
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/11
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/12
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/13
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/14
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/15
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/16
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/17
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/18
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/19
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/20
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/21
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/22
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/23
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/24
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/25
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/26
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/27
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/28
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/29
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/30
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/31
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/32
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/33
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/34
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/35
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/36
+    type: 40gbase-x-qsfpp
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
-    label: MGT
+    label: MGT ▲
   - name: mgmt1
     type: 1000base-t
     mgmt_only: true
-    label: MGT
+    label: MGT ▼
